@@ -1,0 +1,31 @@
+{% block content %}
+<div class="block">
+  <div class="row">
+    {% if images %}
+
+    <h2>{{images|length }} Picture(s) were Taken here!</h2>
+    {% else %}
+    <h2>Found 0 images</h2>
+    {% endif %}
+  </div>
+
+  <div class="row">
+    <div class="gallery">
+      {% if images %} {% for item in images %}
+      <div class="gallery-item" tabindex="0">
+        <img src="{{item.image.url}}" class="gallery-image" alt="" />
+        <div class="gallery-item-info">
+          <ul>
+            <li class="gallery-item-likes">
+              <span class="visually-hidden"></span
+              ><i class="fa fa-tags fa-2x" aria-hidden="true"></i>
+              {{item.imageCategory}}
+            </li>
+          </ul>
+        </div>
+      </div>
+      {% endfor %} {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
