@@ -60,7 +60,13 @@ class Image(models.Model):
         except self.DoesNotExist:
             print('Images already exists')
     
- 
+    @classmethod
+    def get_image_by_id(cls, id):
+        '''
+        method to retrieve images by unique id
+        '''
+        retrieved = Image.objects.get(id = id)
+        return retrieved
     
     @classmethod
     def get_images(cls):
