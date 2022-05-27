@@ -1,11 +1,12 @@
 from django.shortcuts import render
-from .models import Image, Category
+from .models import Image, Category, Location
 import datetime as dt
 
 # Create your views here.
 def index(request):
     images =Image.get_latest()
-    return render(request, 'index.html',{'images':images})
+    locations = Location.get_all()
+    return render(request, 'index.html',{'images':images, 'locations':locations})
 
 def show(request):
     images = Image.get_images()
@@ -23,4 +24,8 @@ def search_results(request):
     else:
         message = "You haven't searched for any term"
         return render(request, 'search.html',{"message":message})
-    
+
+
+def location(request,locale):
+    images = Image.filter_by_location(locale)
+    return render(request, 'location.html', {'images':images})
