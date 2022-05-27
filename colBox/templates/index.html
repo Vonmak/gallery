@@ -13,23 +13,14 @@
   </head>
   <body>
     {% include 'navbar.html' %}
-    <div class="container-fluid" style="height: 90vh">
-      <img
-        src="{{images.image.url}}"
-        class="img-responsive"
-        alt=""
-        style="height: 90vh; width: 100%"
-      />
+    <div
+      class="container-fluid"
+      style="height: 90vh;backdrop-filter: hue-rotate(120deg); background-image:url('{{ images.image.url}}')"
+    >
+      <p class="text-white">{{images.imageName}}</p>
       <br />
-      {% comment %}
-      <p>{{images.imageName}}</p>
-      {% endcomment %}
-      <br />
-      {% comment %}
-      <small>Posted {{images.pub_date|timesince}} ago at</small> {% endcomment
-      %} {% comment %}
+      <small>Posted {{images.pub_date|timesince}} ago at</small>
       <p>{{images.imageLocation.name}}</p>
-      {% endcomment %}
     </div>
   </body>
 </html>

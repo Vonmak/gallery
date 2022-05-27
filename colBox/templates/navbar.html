@@ -14,13 +14,17 @@
         <div class="col-sm-4 col-md-4 navbar-right">
           <div class="row">
             <a class="navbar-brand" href="{%url 'show'%}">Col Box</a>
-            <form class="navbar-form" role="search" action="">
+            <form
+              class="navbar-form"
+              role="search"
+              action="{% url 'searchResults' %}"
+            >
               <div class="input-group">
                 <input
                   type="text"
                   class="form-control"
-                  placeholder="Search Article"
-                  name="article"
+                  placeholder="Enter Image Category"
+                  name="image"
                 />
                 <div class="input-group-btn">
                   <button class="btn btn-default" type="submit">
