@@ -17,6 +17,14 @@
       class="container-fluid"
       style="height: 90vh;backdrop-filter: hue-rotate(120deg); background-image:url('{{ images.image.url}}')"
     >
+      <div >
+        {% for item in locations %}
+        <a class="dropdown-item" href="/location/{{item.name}}"
+          >{{item.name}}</a
+        >
+        {% endfor %}
+      </div>
+      <br />
       <p class="text-white">{{images.imageName}}</p>
       <br />
       <small>Posted {{images.pub_date|timesince}} ago at</small>
