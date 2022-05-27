@@ -51,7 +51,17 @@ class Image(models.Model):
         
     def delete_image(self):
         self.delete()
-        
+    
+    def update_image(self, new_image):
+        try:
+            self.image = new_image
+            self.save()
+            return self
+        except self.DoesNotExist:
+            print('Images already exists')
+    
+ 
+    
     @classmethod
     def get_images(cls):
         images = cls.objects.all()
