@@ -1,4 +1,5 @@
 
+from unicodedata import name
 from django.db import models
 import datetime as dt
 
@@ -19,7 +20,23 @@ class Location(models.Model):
     
     def save_location(self):
         self.save()
+        
+    def delete_location(self):
+            self.delete()
     
+    @classmethod
+    def update_location(cls, search_term , new_locale):
+        '''
+        method to update a location's city name
+        '''
+        try:
+            to_update = Location.objects.get(name = search_term)
+            to_update.name = new_locale
+            to_update.save()
+            return to_update
+        except Location.DoesNotExist:
+            print('Location you specified does not exist')
+  
     
 class Category(models.Model):
     categories = (
@@ -39,6 +56,22 @@ class Category(models.Model):
     def save_category(self):
             self.save()
     
+    def delete_category(self):
+            self.delete()
+    
+    @classmethod
+    def update_category(cls, search_term , new_cat):
+        '''
+        method to update a category
+        '''
+        try:
+            to_update = Category.objects.get(name = search_term)
+            to_update.name = new_cat
+            to_update.save()
+            return to_update
+        except Category.DoesNotExist:
+            print('Category you specified does not exist')
+
     
     
     
