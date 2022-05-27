@@ -6,16 +6,32 @@ import datetime as dt
 class Location(models.Model):
     name = models.CharField(max_length=40)
     
+    def __str__(self):
+        return self.name
+    
     
 class Category(models.Model):
-    name = models.CharField(max_length=40)
-   
+    categories = (
+        ('Selfies','Selfies'),
+        ('Food','Food'),
+        ('Cars','Cars'),
+        ('Swimming','Swimming'),
+        ('Football','Football'),
+        ('Parks','Parks'),
+        ('Forest','Forest'),
+    )
+    name = models.CharField(max_length=40, choices = categories)
+    
+    def __str__(self):
+        return self.name
+    
+    
 class Image(models.Model):
     image = models.ImageField(upload_to='images/',default='')
     imageName= models.CharField(max_length=70)
     imageDescription= models.TextField()
-    imageLocation= models.ForeignKey(Location, on_delete=models.DO_NOTHING)
-    # imageCategory= models.ForeignKey(Category, on_delete=models.DO_NOTHING)
+    imageLocation= models.ForeignKey(Location, on_delete=models.SET_NULL, null=True)
+    imageCategory= models.ForeignKey(Category, on_delete=models.CASCADE, default='')
     pub_date= models.DateTimeField(auto_now_add=True)
     
     
@@ -25,9 +41,11 @@ class Image(models.Model):
     def save_image(self):
         self.save()
         
+    def delete_image(self):
+        self.delete()
+        
     @classmethod
     def get_images(cls):
-        # today = dt.date.today()
         images = cls.objects.all()
         return images
     
