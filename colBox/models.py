@@ -6,6 +6,14 @@ import datetime as dt
 class Location(models.Model):
     name = models.CharField(max_length=40)
     
+    @classmethod
+    def get_all(cls):
+        '''
+        method to retrive all stored locations
+        '''
+        loc = Location.objects.all()
+        return loc
+    
     def __str__(self):
         return self.name
     
@@ -63,4 +71,9 @@ class Image(models.Model):
     @classmethod
     def search_images(cls, search_term):
         images = cls.objects.filter(imageCategory__name__icontains=search_term)
+        return images
+
+    @classmethod
+    def filter_by_location(cls, location):
+        images = cls.objects.filter(imageLocation__name__icontains=location).all()
         return images
