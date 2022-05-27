@@ -59,4 +59,8 @@ class Image(models.Model):
     def get_latest(cls):
         images = cls.objects.last()
         return images
- 
+    
+    @classmethod
+    def search_images(cls, search_term):
+        images = cls.objects.filter(imageCategory__name__icontains=search_term)
+        return images
