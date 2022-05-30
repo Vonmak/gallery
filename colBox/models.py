@@ -47,6 +47,7 @@ class Category(models.Model):
         ('Football','Football'),
         ('Parks','Parks'),
         ('Forest','Forest'),
+        ('Buildings','Buildings')
     )
     name = models.CharField(max_length=40, choices = categories)
     
