@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-t*l&f4d50$nu8l&p^oi#11d&qedhz9rcb7_cs8$xp+hib+%-9p
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lagalarie.herokuapp.com']
 
 
 # Application definition
@@ -130,7 +130,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = '/Users/vic/Documents/django/theGallery/static',
+# STATIC_ROOT = '/Users/vic/Documents/django/theGallery/static',
 
 # STATICFILES_DIRS = [
     
