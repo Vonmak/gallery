@@ -6,7 +6,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('',views.index, name='index'),
-    path('show', views.show, name='show'),
+    path('home/',views.home, name='home'),
+    path('show/', views.show, name='show'),
     path('search/', views.search_results, name='searchResults'),
     re_path('^location/(?P<locale>\w+)/', views.location, name='location'),
 ]
