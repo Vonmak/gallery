@@ -130,7 +130,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# STATIC_ROOT = '/Users/vic/Documents/django/theGallery/static',
+STATIC_ROOT = '/Users/vic/Documents/django/theGallery/static',
 
 # STATICFILES_DIRS = [
     
