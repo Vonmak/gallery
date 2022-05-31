@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['lagalarie.herokuapp.com']
 
 INSTALLED_APPS = [
     
-    'colBox.apps.ColboxConfig',
+    'colBox',
     "bootstrap5",
     'django.contrib.admin',
     'django.contrib.auth',
