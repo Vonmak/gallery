@@ -25,8 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t*l&f4d50$nu8l&p^oi#11d&qedhz9rcb7_cs8$xp+hib+%-9p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = ['lagalarie.herokuapp.com']
 
@@ -133,24 +133,33 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 
-STATIC_URL = 'static/'
+# STATIC_URL = 'static/'
 
 # Extra places for collectstatic to find static files.
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
-STATIC_ROOT=os.path.join(BASE_DIR,"/static/") 
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+# STATIC_ROOT=os.path.join(BASE_DIR,"/static/") 
 
 # STATIC_ROOT = '/Users/vic/Documents/django/theGallery/static',
 
-# STATICFILES_DIRS = [
-    
-#     os.path.join(BASE_DIR, "static"),
-# ]
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.11/howto/static-files/
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = 'static/'
+STATIC_FILES_DIRS = [os.path.join(BASE_DIR, 'static')],
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+
+
+
 # Whitenoise Settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 
