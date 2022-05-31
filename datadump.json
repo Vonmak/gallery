@@ -1,0 +1,2245 @@
+[
+{
+    "model": "colBox.location",
+    "pk": 3,
+    "fields": {
+        "name": "Kisii"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 4,
+    "fields": {
+        "name": "Kisumu"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 5,
+    "fields": {
+        "name": "Migori"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 6,
+    "fields": {
+        "name": "Westlands"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 7,
+    "fields": {
+        "name": "Singapore"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 8,
+    "fields": {
+        "name": "TheHubKaren"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 9,
+    "fields": {
+        "name": "JunctionMall"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 10,
+    "fields": {
+        "name": "Nairobi"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 11,
+    "fields": {
+        "name": "USA"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 12,
+    "fields": {
+        "name": "Mombasa"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 13,
+    "fields": {
+        "name": "Instabul"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 14,
+    "fields": {
+        "name": "USA"
+    }
+},
+{
+    "model": "colBox.location",
+    "pk": 15,
+    "fields": {
+        "name": "Ngong"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 2,
+    "fields": {
+        "name": "Cars"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 3,
+    "fields": {
+        "name": "Selfies"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 4,
+    "fields": {
+        "name": "Football"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 5,
+    "fields": {
+        "name": "Selfies"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 6,
+    "fields": {
+        "name": "Buildings"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 7,
+    "fields": {
+        "name": "Food"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 8,
+    "fields": {
+        "name": "Food"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 9,
+    "fields": {
+        "name": "Parks"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 10,
+    "fields": {
+        "name": "Swimming"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 11,
+    "fields": {
+        "name": "Swimming"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 12,
+    "fields": {
+        "name": "Forest"
+    }
+},
+{
+    "model": "colBox.category",
+    "pk": 13,
+    "fields": {
+        "name": "Forest"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 6,
+    "fields": {
+        "image": "images/eugene-chystiakov-qmi6YbtCziQ-unsplash.jpeg",
+        "imageName": "Eugene Chyst Apartments",
+        "imageDescription": "Our property evaluation tool makes the market transparent for you.",
+        "imageLocation": 7,
+        "imageCategory": 6,
+        "pub_date": "2022-05-27T05:15:46.652Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 7,
+    "fields": {
+        "image": "images/Benz.jpeg",
+        "imageName": "Benz",
+        "imageDescription": "Mercedes-Benz traces its origins to Karl Benz's creation of the first internal combustion engine in a car.",
+        "imageLocation": 4,
+        "imageCategory": 2,
+        "pub_date": "2022-05-27T07:37:34.471Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 8,
+    "fields": {
+        "image": "images/Lucas.jpeg",
+        "imageName": "Lucas",
+        "imageDescription": "31 years of Age from  Migori Town.",
+        "imageLocation": 5,
+        "imageCategory": 3,
+        "pub_date": "2022-05-27T08:16:59.098Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 9,
+    "fields": {
+        "image": "images/Sarah.jpeg",
+        "imageName": "Sarah",
+        "imageDescription": "She is a 24 years old young blood Kisii.",
+        "imageLocation": 3,
+        "imageCategory": 3,
+        "pub_date": "2022-05-28T18:32:30.774Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 10,
+    "fields": {
+        "image": "images/Epl.jpeg",
+        "imageName": "Footballs",
+        "imageDescription": "The Kenyan Premier League match ball from the 2020/21 season.",
+        "imageLocation": 4,
+        "imageCategory": 4,
+        "pub_date": "2022-05-29T07:51:47.268Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 11,
+    "fields": {
+        "image": "images/austin-poon-JO_S6ewBqAk-unsplash.jpeg",
+        "imageName": "Austin",
+        "imageDescription": "Our ultimate pick of the best laptops for programming to help you create, compile and test code quickly and easily.",
+        "imageLocation": 6,
+        "imageCategory": 5,
+        "pub_date": "2022-05-30T01:06:03.250Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 12,
+    "fields": {
+        "image": "images/Ferrari.jpeg",
+        "imageName": "Ferrari",
+        "imageDescription": "This car use a traditional engine layout between driver and rear drive axle",
+        "imageLocation": 6,
+        "imageCategory": 2,
+        "pub_date": "2022-05-30T09:26:22.508Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 13,
+    "fields": {
+        "image": "images/food1.jpeg",
+        "imageName": "Choma",
+        "imageDescription": "The Best Meal In Kenya",
+        "imageLocation": 8,
+        "imageCategory": 7,
+        "pub_date": "2022-05-30T13:06:37.094Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 14,
+    "fields": {
+        "image": "images/food2.jpeg",
+        "imageName": "Pizza",
+        "imageDescription": "Dominion's Best",
+        "imageLocation": 9,
+        "imageCategory": 8,
+        "pub_date": "2022-05-30T13:07:42.637Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 15,
+    "fields": {
+        "image": "images/park1.jpeg",
+        "imageName": "Safari Walk",
+        "imageDescription": "Safari walk Nairobi , the best place to be.",
+        "imageLocation": 10,
+        "imageCategory": 9,
+        "pub_date": "2022-05-30T13:08:45.157Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 16,
+    "fields": {
+        "image": "images/park2.jpeg",
+        "imageName": "The Circle",
+        "imageDescription": "The Circle in the United States of America",
+        "imageLocation": 11,
+        "imageCategory": 9,
+        "pub_date": "2022-05-30T13:09:47.099Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 17,
+    "fields": {
+        "image": "images/swimming1.jpeg",
+        "imageName": "Diani",
+        "imageDescription": "Diani has one of the best swimming pools.",
+        "imageLocation": 12,
+        "imageCategory": 10,
+        "pub_date": "2022-05-30T13:11:09.196Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 18,
+    "fields": {
+        "image": "images/swimming2.jpeg",
+        "imageName": "Race",
+        "imageDescription": "Swimming as a sport.",
+        "imageLocation": 13,
+        "imageCategory": 11,
+        "pub_date": "2022-05-30T13:12:00.047Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 19,
+    "fields": {
+        "image": "images/forest1.jpeg",
+        "imageName": "Mississippi",
+        "imageDescription": "The largest forest in the world.",
+        "imageLocation": 14,
+        "imageCategory": 12,
+        "pub_date": "2022-05-30T13:13:19.379Z"
+    }
+},
+{
+    "model": "colBox.image",
+    "pk": 20,
+    "fields": {
+        "image": "images/forest2.jpeg",
+        "imageName": "Sunny Ngong",
+        "imageDescription": "The beautiful sun fall in Ngong forest",
+        "imageLocation": 15,
+        "imageCategory": 13,
+        "pub_date": "2022-05-30T13:14:38.154Z"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "colBox",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "colBox",
+        "model": "location"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "colBox",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0wqogxqzccw5xkihh6hno9l7ya48jvu0",
+    "fields": {
+        "session_data": ".eJxVjLsOAiEURP-F2hBe9wKW9n4D4SmrBpJltzL-u5JsodUkc87Mizi_b9XtI69uSeRMODn9dsHHR24TpLtvt05jb9u6BDoVetBBrz3l5-Vw_w6qH_W7lgIQVUoZEgOhmc7KcMYRDYdSshUaUYLiRdgSAMJMFIEZabktkZH3B604Npg:1nuLgn:C2UiS4MCIlYEWCvb0m3HXezt28zK0WqVpQU91iYdJME",
+        "expire_date": "2022-06-09T22:10:41.998Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0yuv00m6c015anwqpxwgrzegm9hfvhci",
+    "fields": {
+        "session_data": ".eJxVjLsOAiEURP-F2hBe9wKW9n4D4SmrBpJltzL-u5JsodUkc87Mizi_b9XtI69uSeRMODn9dsHHR24TpLtvt05jb9u6BDoVetBBrz3l5-Vw_w6qH_W7lgIQVUoZEgOhmc7KcMYRDYdSshUaUYLiRdgSAMJMFIEZabktkZH3B604Npg:1nuEit:ezgTPmOoy5jpquFV7xkl1sBpy6SXsf2lS8skJyl1K7U",
+        "expire_date": "2022-06-09T14:44:23.147Z"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add category",
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change category",
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view category",
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add location",
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "codename": "add_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change location",
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "codename": "change_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete location",
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "codename": "delete_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view location",
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "codename": "view_location"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add image",
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change image",
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete image",
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view image",
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$NT0cX44LeDvsMgDj8jvmjj$1chlPiG+/e/GhmJG0Nm7v4TnpnOVLI6ypto/Mwd6GUs=",
+        "last_login": "2022-05-26T22:10:41.997Z",
+        "is_superuser": true,
+        "username": "vic",
+        "first_name": "",
+        "last_name": "",
+        "email": "vonmak2@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-26T14:43:36.359Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-26T14:45:21.869Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "1",
+        "object_repr": "Location object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-26T14:45:25.983Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "Ondari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-05-26T14:52:59.081Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "Ondari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-05-26T22:11:33.927Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "Ondari",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-05-26T22:11:39.032Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "Ondari",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-05-26T22:12:08.261Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "1",
+        "object_repr": "Nairobi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-05-27T04:06:44.012Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "2",
+        "object_repr": "Nairobi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-05-27T04:07:35.971Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "patakeja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-05-27T04:30:27.997Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "patakeja",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-05-27T04:40:03.376Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "2",
+        "object_repr": "Nairobi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-05-27T04:45:32.028Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Food",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-05-27T04:49:50.206Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "3",
+        "object_repr": "kisii",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-05-27T04:49:54.311Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "patakeja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-05-27T04:51:18.347Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "patakeja",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-05-27T04:59:01.127Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "4",
+        "object_repr": "kisumu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-05-27T04:59:04.922Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "patakeja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-05-27T05:14:42.989Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Food",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-05-27T05:15:39.056Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Cars",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-05-27T05:15:46.653Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Ondari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-05-27T07:37:34.482Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "patakeja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-05-27T08:16:44.787Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "5",
+        "object_repr": "migori",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-05-27T08:16:56.357Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Selfies",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-05-27T08:16:59.104Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "new",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-05-27T10:23:15.347Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Ondari",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-05-27T10:23:39.529Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Ondari",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-05-28T18:32:30.783Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "pic",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-05-29T07:51:42.388Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Football",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-05-29T07:51:47.269Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "bio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-05-30T01:05:27.841Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "6",
+        "object_repr": "Westlands",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-05-30T01:05:50.573Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Selfies",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-05-30T01:06:03.256Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "Austin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-05-30T07:28:45.018Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "7",
+        "object_repr": "Singapore",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-05-30T07:31:56.229Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "6",
+        "object_repr": "Buildings",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-05-30T07:32:04.961Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Eugene Chyst Apartments",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"ImageName\", \"ImageDescription\", \"ImageLocation\", \"ImageCategory\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-05-30T07:42:13.778Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "4",
+        "object_repr": "Kisumu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-05-30T07:42:15.946Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "Benz",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"ImageName\", \"ImageDescription\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-05-30T07:44:47.744Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "5",
+        "object_repr": "Migori",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-05-30T07:44:54.914Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "Lucas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"ImageName\", \"ImageDescription\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-05-30T07:47:10.823Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "3",
+        "object_repr": "Kisii",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-05-30T07:47:13.370Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "Sarah",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"ImageName\", \"ImageDescription\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-05-30T07:49:37.265Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "Footballs",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"ImageName\", \"ImageDescription\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-05-30T09:26:22.517Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "12",
+        "object_repr": "Ferrari",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-05-30T13:06:25.375Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "8",
+        "object_repr": "The Hub, Karen",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-05-30T13:06:35.716Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "7",
+        "object_repr": "Food",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-05-30T13:06:37.096Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "Choma",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-05-30T13:07:32.935Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "9",
+        "object_repr": "Junction Mall",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-05-30T13:07:41.387Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "8",
+        "object_repr": "Food",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-05-30T13:07:42.643Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "Pizza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-05-30T13:08:38.045Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "10",
+        "object_repr": "Nairobi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-05-30T13:08:43.822Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "9",
+        "object_repr": "Parks",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-05-30T13:08:45.158Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "15",
+        "object_repr": "Safari Walk",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-05-30T13:09:38.377Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "11",
+        "object_repr": "USA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-05-30T13:09:47.100Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "16",
+        "object_repr": "The Circle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-05-30T13:11:02.017Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "12",
+        "object_repr": "Diani, Mombasa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-05-30T13:11:07.939Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "10",
+        "object_repr": "Swimming",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-05-30T13:11:09.197Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "17",
+        "object_repr": "Diani",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-05-30T13:11:50.631Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "13",
+        "object_repr": "Instabul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-05-30T13:11:58.787Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "11",
+        "object_repr": "Swimming",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-05-30T13:12:00.050Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "18",
+        "object_repr": "Race",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-05-30T13:13:01.179Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "14",
+        "object_repr": "USA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-05-30T13:13:17.867Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "12",
+        "object_repr": "Forest",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-05-30T13:13:19.380Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "19",
+        "object_repr": "Mississippi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-05-30T13:14:30.565Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "15",
+        "object_repr": "Ngong Forest",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-05-30T13:14:37.033Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "category"
+        ],
+        "object_id": "13",
+        "object_repr": "Forest",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-05-30T13:14:38.155Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "20",
+        "object_repr": "Sunny Ngong",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-05-30T13:17:34.801Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "15",
+        "object_repr": "Ngong",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-05-30T13:17:38.527Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "20",
+        "object_repr": "Sunny Ngong",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-05-30T13:18:22.226Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "9",
+        "object_repr": "JunctionMall",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-05-30T13:18:24.823Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "Pizza",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-05-30T13:18:36.742Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "12",
+        "object_repr": "Mombasa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-05-30T13:18:38.542Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "17",
+        "object_repr": "Diani",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-05-30T13:19:31.340Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "8",
+        "object_repr": "The-Hub-Karen",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-05-30T13:19:33.292Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "Choma",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-05-30T13:20:01.928Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "location"
+        ],
+        "object_id": "8",
+        "object_repr": "TheHubKaren",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-05-30T13:20:03.576Z",
+        "user": [
+            "vic"
+        ],
+        "content_type": [
+            "colBox",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "Choma",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}
+]
