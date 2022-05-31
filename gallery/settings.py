@@ -16,6 +16,10 @@ import django_heroku
 import dj_database_url
 from decouple import config,Csv
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -46,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary'
 ]
 
 MIDDLEWARE = [
@@ -187,3 +192,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configure Django App for Heroku.
 django_heroku.settings(locals())
+
+# adding config
+cloudinary.config( 
+  cloud_name = "ddtmsdlip", 
+  api_key = "356757256393764", 
+  api_secret = "V-68rzwrl7fFATIiLhanN9z8zts" 
+)

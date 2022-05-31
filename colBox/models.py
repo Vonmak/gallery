@@ -1,7 +1,6 @@
-
-from unicodedata import name
 from django.db import models
 import datetime as dt
+from cloudinary.models import CloudinaryField
 
 # Create your models here.
 class Location(models.Model):
@@ -77,7 +76,8 @@ class Category(models.Model):
     
     
 class Image(models.Model):
-    image = models.ImageField(upload_to='images/',default='')
+    # image = models.ImageField(upload_to='images/',default='')
+    image = CloudinaryField('image')
     imageName= models.CharField(max_length=70)
     imageDescription= models.TextField()
     imageLocation= models.ForeignKey(Location, on_delete=models.SET_NULL, null=True)
