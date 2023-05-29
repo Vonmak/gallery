@@ -1,0 +1,82 @@
+    @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+    .body {
+        background-color: black;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery-item {
+        position: relative;
+        margin: 1rem;
+        color: #fff;
+        cursor: pointer;
+        height: 450px;
+        width: 325px;
+    }
+    
+    .gallery-item:hover .gallery-item-info,
+    .gallery-item:focus .gallery-item-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        height: 450px;
+        width: 325px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .gallery-item-info {
+        display: none;
+    }
+    
+    .gallery-item-info ul {
+        font-size: 1.7rem;
+        font-weight: 600;
+        list-style: none;
+    }
+    
+    .gallery-item-cat {
+        margin-right: 2.2rem;
+    }
+    
+    .mImage {
+        height: 25em;
+        width: 20em;
+        border-radius: 5px;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .mImage {
+            width: 100%;
+        }
+    }
+    /* search html */
+    
+    .search-body {
+        background: linear-gradient(black, #333);
+        height: 100vh;
+        overflow: scroll;
+    }
+    
+    .sImage {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .search {
+        height: 450px;
+        width: 325px;
+        margin: 10px;
+    }

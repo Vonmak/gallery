@@ -30,13 +30,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 MODE=config("MODE", default="dev")
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = '310aa7621f7c8b6217e2c7574b9bd2c021a2452508012d02710df8a4328bc07b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = True
 # DEBUG = False
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-ALLOWED_HOSTS=['lagalarie.herokuapp.com','.127.0.0.1']
+ALLOWED_HOSTS=['*']
 
 
 # Application definition
@@ -95,11 +95,11 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.postgresql',
-           'NAME': config('DB_NAME'),
-           'USER': config('DB_USER'),
-           'PASSWORD': config('DB_PASSWORD'),
-           'HOST': config('DB_HOST'),
-           'PORT': '5432',
+           'NAME': 'railway',
+           'USER': 'postgres',
+           'PASSWORD': '74BK8FaVUAubOmv5mX3z',
+           'HOST': 'containers-us-west-165.railway.app',
+           'PORT': '7151',
        }
        
    }
@@ -111,8 +111,8 @@ DATABASES = {
 #        )
 #    }
 
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 
 
@@ -193,7 +193,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Configure Django App for Heroku.
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
 
 # adding config
 cloudinary.config( 
